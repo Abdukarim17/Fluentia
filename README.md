@@ -27,11 +27,11 @@ Clone the repository:
 bash
 Copy code
 git clone https://github.com/your-username/fluentia.git
-Navigate to the backend directory:
+Navigate to the server directory:
 
 bash
 Copy code
-cd fluentia/backend
+cd fluentia/server
 Install dependencies:
 
 bash
