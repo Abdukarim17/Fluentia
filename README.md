@@ -1,7 +1,7 @@
 Fluentia
 Fluentia is an OpenAI-powered mobile application designed to facilitate learning Arabic through interactive modules and real-time interactions with AI and users across the globe. By integrating modern technologies, Fluentia provides a personalized and immersive learning environment.
 
-<img src="/homepage.png" alt="Homepage" width="400" />
+<img src="/homepage.png" alt="Homepage" width="300" />
 
 
 
