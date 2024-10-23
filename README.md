@@ -26,7 +26,12 @@ Fluentia is an OpenAI-powered mobile application designed to facilitate learning
   - Utilized AWS-RDS with PostgreSQL for database management.
   - Ensured security and scalability.
 
-<img src="/profilepage.png" alt="Profilepage" width="300" />
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="/profilepage.png" alt="Profilepage" width="300" />
+    <img src="/Signuppage.png" alt="Signuppage" width="300" />
+</div>
+
 
 <h1>Tech Stack</h1>
 Frontend: React Native
