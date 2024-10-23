@@ -10,6 +10,7 @@ Fluentia is an OpenAI-powered mobile application designed to facilitate learning
 
 
 <h1>Features</h1>
+
 - **AI-Powered Speech Recognition**: 
   - Implemented Speech-to-Text (STT) and Text-to-Speech (TTS) features using OpenAI's API.
   - Enabled real-time assessment of pronunciation and grammar.
