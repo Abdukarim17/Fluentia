@@ -5,16 +5,27 @@ Fluentia is an OpenAI-powered mobile application designed to facilitate learning
 <div style="display: flex; justify-content: space-between;">
     <img src="/homepage.png" alt="Homepage" width="300" />
     <img src="/conversationpage.png" alt="Conversationpage" width="300" />
-    <img src="/profilepage.png" alt="Profilepage" width="300" />
 </div>
 
 
 
-Features
-AI-Powered Speech Recognition: Implemented Speech-to-Text (STT) and Text-to-Speech (TTS) features using OpenAI's API, enabling real-time assessment of pronunciation and grammar.
-Interactive Learning: Personalized learning experience tailored to each user's progress and needs.
-Real-Time Video Interaction: Integrated the Jitsi API to allow users to connect through live video calls, fostering community and enhancing learning.
-Secure and Scalable Database: Utilized AWS-RDS with PostgreSQL for database management to ensure security and scalability.
+<h1>Features</h1>
+- **AI-Powered Speech Recognition**: 
+  - Implemented Speech-to-Text (STT) and Text-to-Speech (TTS) features using OpenAI's API.
+  - Enabled real-time assessment of pronunciation and grammar.
+
+- **Interactive Learning**: 
+  - Personalized learning experience tailored to each user's progress and needs.
+
+- **Real-Time Video Interaction**: 
+  - Integrated the Jitsi API to allow users to connect through live video calls.
+  - Fostered community and enhanced learning.
+
+- **Secure and Scalable Database**: 
+  - Utilized AWS-RDS with PostgreSQL for database management.
+  - Ensured security and scalability.
+
+<img src="/Profilepage.png" alt="Profilepage" width="300" />
 
 Tech Stack
 Frontend: React Native
