@@ -28,60 +28,52 @@ Fluentia is an OpenAI-powered mobile application designed to facilitate learning
 
 <img src="/profilepage.png" alt="Profilepage" width="300" />
 
-Tech Stack
+<h1>Tech Stack</h1>
 Frontend: React Native
 Backend: FastAPI, Python
 AI Integration: OpenAI API for STT, TTS, and learning modules
 Real-Time Communication: Jitsi API for video calling
 Database: AWS-RDS with PostgreSQL
 Cloud: AWS for scalable infrastructure
-Installation
-Prerequisites
+
+<h1>Getting started</h1>
+<h2>Prerequisites</h2>
 Python 3.x
 Node.js
 AWS account for RDS setup
 OpenAI API Key
 Jitsi API credentials
 Backend Setup
+
+<h2>Installation</h2>
 Clone the repository:
 
-bash
-Copy code
 git clone https://github.com/your-username/fluentia.git
 Navigate to the server directory:
 
-bash
-Copy code
+
 cd fluentia/server
 Install dependencies:
 
-bash
-Copy code
 pip install -r requirements.txt
 Set up your environment variables for OpenAI, Jitsi, and AWS:
 
-bash
-Copy code
 export OPENAI_API_KEY=your_openai_api_key
 export JITSI_API_KEY=your_jitsi_api_key
 export DATABASE_URL=your_aws_rds_postgresql_url
 Run the FastAPI server:
 
-bash
-Copy code
+
 uvicorn app.main:app --reload
 Frontend Setup
 Navigate to the frontend directory:
-bash
-Copy code
+
 cd fluentia/frontend
 Install dependencies:
-bash
-Copy code
+
 npm install
 Run the React Native app:
-bash
-Copy code
+
 npm start
 Usage
 Launch the mobile app.
