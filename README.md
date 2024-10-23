@@ -29,7 +29,7 @@ Fluentia is an OpenAI-powered mobile application designed to facilitate learning
 
 <div style="display: flex; justify-content: space-between;">
     <img src="/profilepage.png" alt="Profilepage" width="300" />
-    <img src="/Signuppage.png" alt="Signuppage" width="300" />
+    <img src="/Signup.png" alt="Signuppage" width="300" />
 </div>
 
 
