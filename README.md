@@ -50,18 +50,29 @@ OpenAI API Key
 Jitsi API credentials
 Backend Setup
 
-<h2>Installation</h2>
-Clone the repository:
+## Installation
 
+Follow these steps to get your development environment set up:
+
+### Clone the Repository
+
+Start by cloning the repository to your local machine:
+
+```bash
 git clone https://github.com/your-username/fluentia.git
-Navigate to the server directory:
 
+### Navigate to the server directory:
 
+```bash
 cd fluentia/server
-Install dependencies:
-
 pip install -r requirements.txt
-Set up your environment variables for OpenAI, Jitsi, and AWS:
+
+### Install dependencies:
+
+```bash
+pip install -r requirements.txt
+
+### Set up your environment variables for OpenAI, Jitsi, and AWS:
 
 export OPENAI_API_KEY=your_openai_api_key
 export JITSI_API_KEY=your_jitsi_api_key
