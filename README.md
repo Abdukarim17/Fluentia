@@ -58,40 +58,48 @@ Follow these steps to get your development environment set up:
 
 Start by cloning the repository to your local machine:
 
-```bash
+```console
 git clone https://github.com/your-username/fluentia.git
+```
 
 ### Navigate to the server directory:
 
-```bash
+```console
 cd fluentia/server
 pip install -r requirements.txt
+```
 
 ### Install dependencies:
 
-```bash
+```console
 pip install -r requirements.txt
+```
 
 ### Set up your environment variables for OpenAI, Jitsi, and AWS:
 
+```console
 export OPENAI_API_KEY=your_openai_api_key
 export JITSI_API_KEY=your_jitsi_api_key
 export DATABASE_URL=your_aws_rds_postgresql_url
-Run the FastAPI server:
-
-
+```
+### Run the FastAPI server:
+```console
 uvicorn app.main:app --reload
-Frontend Setup
+```
+### Frontend Setup
 Navigate to the frontend directory:
-
+```console
 cd fluentia/frontend
+```
 Install dependencies:
-
+```console
 npm install
+```
 Run the React Native app:
-
+```console
 npm start
-Usage
+```
+### Usage
 Launch the mobile app.
 Register or log in to create a profile.
 Start learning with interactive modules and real-time AI feedback.
